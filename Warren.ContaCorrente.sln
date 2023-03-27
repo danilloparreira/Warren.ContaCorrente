@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.API", "Warren.ContaCorrente.API\Warren.ContaCorrente.API.csproj", "{B1EC98A5-D2AF-47ED-9A2E-2B09C1A12CDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.API", "01.API", "{869DC08D-3A6E-43DF-9FE3-C3F49ADE090C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Domain", "02.Domain", "{0E99E9F7-71BF-4113-B2CF-FB52E0BEB404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Infra", "03.Infra", "{D42C8345-B451-4A40-B9B2-03CA2127C87B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.Models", "Warren.ContaCorrente.Models\Warren.ContaCorrente.Models.csproj", "{14C254A1-544C-4BA3-9F9C-0BCCCF90E619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.Services", "Warren.ContaCorrente.Services\Warren.ContaCorrente.Services.csproj", "{C88BE3F9-6DCD-4360-AA84-61E1A9B1F964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.Services.Abstractions", "Warren.ContaCorrente.Services.Abstractions\Warren.ContaCorrente.Services.Abstractions.csproj", "{F5E7B7EC-9B35-47B2-8DD9-08F194385D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.Repository", "Warren.ContaCorrente.Repository\Warren.ContaCorrente.Repository.csproj", "{BA10F454-041F-4AE0-940B-D47431CF74F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.Repository.Abstractions", "Warren.ContaCorrente.Repository.Abstractions\Warren.ContaCorrente.Repository.Abstractions.csproj", "{D9C27271-93FF-4198-9CCA-F4239D91A48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.IoC", "Warren.ContaCorrente.IoC\Warren.ContaCorrente.IoC.csproj", "{8B8CEAEC-188C-43EE-A8DF-C7AC8C14A76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warren.ContaCorrente.Migrations", "Warren.ContaCorrente.Migrations\Warren.ContaCorrente.Migrations.csproj", "{E2D3521D-027D-4015-8FAD-7BCA8036A6D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1EC98A5-D2AF-47ED-9A2E-2B09C1A12CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EC98A5-D2AF-47ED-9A2E-2B09C1A12CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EC98A5-D2AF-47ED-9A2E-2B09C1A12CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EC98A5-D2AF-47ED-9A2E-2B09C1A12CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C254A1-544C-4BA3-9F9C-0BCCCF90E619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C254A1-544C-4BA3-9F9C-0BCCCF90E619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C254A1-544C-4BA3-9F9C-0BCCCF90E619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C254A1-544C-4BA3-9F9C-0BCCCF90E619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88BE3F9-6DCD-4360-AA84-61E1A9B1F964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88BE3F9-6DCD-4360-AA84-61E1A9B1F964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88BE3F9-6DCD-4360-AA84-61E1A9B1F964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88BE3F9-6DCD-4360-AA84-61E1A9B1F964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E7B7EC-9B35-47B2-8DD9-08F194385D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E7B7EC-9B35-47B2-8DD9-08F194385D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E7B7EC-9B35-47B2-8DD9-08F194385D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E7B7EC-9B35-47B2-8DD9-08F194385D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA10F454-041F-4AE0-940B-D47431CF74F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA10F454-041F-4AE0-940B-D47431CF74F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA10F454-041F-4AE0-940B-D47431CF74F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA10F454-041F-4AE0-940B-D47431CF74F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C27271-93FF-4198-9CCA-F4239D91A48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C27271-93FF-4198-9CCA-F4239D91A48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C27271-93FF-4198-9CCA-F4239D91A48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C27271-93FF-4198-9CCA-F4239D91A48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8CEAEC-188C-43EE-A8DF-C7AC8C14A76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8CEAEC-188C-43EE-A8DF-C7AC8C14A76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8CEAEC-188C-43EE-A8DF-C7AC8C14A76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8CEAEC-188C-43EE-A8DF-C7AC8C14A76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D3521D-027D-4015-8FAD-7BCA8036A6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D3521D-027D-4015-8FAD-7BCA8036A6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D3521D-027D-4015-8FAD-7BCA8036A6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D3521D-027D-4015-8FAD-7BCA8036A6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1EC98A5-D2AF-47ED-9A2E-2B09C1A12CDE} = {869DC08D-3A6E-43DF-9FE3-C3F49ADE090C}
+		{14C254A1-544C-4BA3-9F9C-0BCCCF90E619} = {0E99E9F7-71BF-4113-B2CF-FB52E0BEB404}
+		{C88BE3F9-6DCD-4360-AA84-61E1A9B1F964} = {0E99E9F7-71BF-4113-B2CF-FB52E0BEB404}
+		{F5E7B7EC-9B35-47B2-8DD9-08F194385D5C} = {0E99E9F7-71BF-4113-B2CF-FB52E0BEB404}
+		{BA10F454-041F-4AE0-940B-D47431CF74F0} = {D42C8345-B451-4A40-B9B2-03CA2127C87B}
+		{D9C27271-93FF-4198-9CCA-F4239D91A48F} = {D42C8345-B451-4A40-B9B2-03CA2127C87B}
+		{8B8CEAEC-188C-43EE-A8DF-C7AC8C14A76B} = {869DC08D-3A6E-43DF-9FE3-C3F49ADE090C}
+		{E2D3521D-027D-4015-8FAD-7BCA8036A6D6} = {D42C8345-B451-4A40-B9B2-03CA2127C87B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99152B60-C6B0-4DD5-A5B6-BD30ED4E2CA0}
+	EndGlobalSection
+EndGlobal
