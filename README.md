@@ -7,6 +7,13 @@ Esse projeto contempla a criação de uma API para conta corrente da Warren.
 Seguem algumas informações relevantes do banco de dados caso seja necessário o acesso.
 
 ```
+Link do servidor: https://www.freemysqlhosting.net/account/
+Usuário: mehena3875@asoflex.com
+Senha: asoflex@com
+```
+
+```
+Link do phpMyAdmin: https://www.phpmyadmin.co/sql.php?server=1&db=sql10608315
 Servidor: sql10.freemysqlhosting.net
 Nome: sql10608315
 Usuário: sql10608315
